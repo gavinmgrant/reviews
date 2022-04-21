@@ -1,0 +1,92 @@
+.ReviewCard {
+  position: relative;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ReviewDetail {
+  position: relative;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ReviewCard:hover {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.ReviewPlace {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ReviewContent {
+  font-size: 16px;
+  color: #5d6167;
+  margin-bottom: 36px;
+}
+
+.ReviewFooter {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 14px;
+}
+
+.ReviewDate {
+  color: #8d95a3;
+  margin-left: 28px;
+}
+
+.IconXmark {
+  font-size: 24px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #0057b3;
+  cursor: pointer;
+}
+
+.IconMessages {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #0057b3;
+}
+
+@media screen and (min-width: 782px) {
+  .ReviewCard {
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+  }
+
+  .ReviewDetail {
+    min-height: 250px;
+    width: 100%;
+    padding: 20px 80px;
+  }
+
+  .ReviewPlace {
+    font-size: 24px;
+  }
+
+  .ReviewContent {
+    font-size: 18px;
+  }
+
+  .ReviewAuthorDetail {
+    margin-left: 60px;
+  }
+
+  .IconXmark {
+    right: 28px;
+  }
+}

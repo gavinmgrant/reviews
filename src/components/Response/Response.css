@@ -1,0 +1,91 @@
+.ResponseLabel {
+  font-weight: 700;
+}
+
+.ResponseInput {
+  padding: 8px;
+  font-size: 18px;
+  width: 100%;
+  margin: 6px 0 16px 0;
+}
+
+.ResponseForm {
+  margin-top: 4px;
+}
+
+.Response {
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 56px 20px 20px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+  max-width: 1200px;
+  margin: 55px auto;
+}
+
+.ResponseContent {
+  cursor: pointer;
+  color: #5D6167;
+  font-size: 18px;
+  margin-bottom: 29px;
+}
+
+.ResponseFooter {
+  font-size: 14px;
+}
+
+.ResponseDate {
+  color: #8D95A3;
+  margin-left: 28px;
+}
+
+.IconReply {
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #097AE6;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.IconDark {
+  color: #0057B3;
+}
+
+.IconEllipsis {
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #0057B3;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+@media screen and (min-width: 782px) {
+  .Response {
+    padding: 35px 80px 45px 80px;
+  }
+
+  .ResponseForm {
+    margin-top: 0;
+  }
+
+  .IconReply {
+    top: 35px;
+    left: 28px;
+  }
+
+  .IconReplyForm {
+    top: 35px;
+    left: 28px;
+  }
+
+  .IconEllipsis {
+    top: 35px;
+    right: 28px;
+  }
+}
